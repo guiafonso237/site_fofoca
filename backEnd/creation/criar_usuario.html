@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+    <style>
+        #div{
+            margin-left: 530px;
+        }
+        #titulo{
+            text-align: center;
+        }
+        #form{
+            text-align: left;
+        }
+        #input{
+            width: 250px;
+        }
+        #input_senha{
+            width: 325px;
+        }
+        #input_comp{
+            width: 255px;
+        }
+        #sub{
+            margin-left: 140px;
+        }
+    </style>
+</head>
+<body>
+    <br><br><br><br><br><br><br><br><br><br>
+    <h1 id="titulo">Crie sua conta</h1><br><br><br>
+    <div id="div">
+        <form id="form" action="criacao.php" method="post">
+            <label>Nome Completo: </label><input id="input_comp" type="text" name="name" maxlength="50" placeholder="Este nome nÃ£o serÃ¡ visÃ­vel para os outros"><br><br>
+            <label>Nome de UsuÃ¡rio: </label><input id="input" type="text" name="user_name" maxlength="20" placeholder="Este nome visÃ­vel par os outros"><br><br>
+            <label>Senha: </label><input id="input_senha" type="password" name="senha" maxlength="10"><br><br>
+            <input type="submit" value="Registrar" id="sub">
+        </form>
+    </div>
+</body>
+</html>
+
