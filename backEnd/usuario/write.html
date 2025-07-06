@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar</title>
+    <style>
+        #titulo{
+            text-align: center;
+        }
+        #form{
+            text-align: center;
+        }
+        #algo{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <br><br><br><br><br><br><br><br><br><br>
+    <h1 id="titulo">Bem-Vindo(a)</h1>
+    <h3 id="titulo">Digite sua mensagem</h3>
+    <form id="form" action="inBd.php" method="post">
+        <label>Mensagem: </label><input type="text" name="mensagem" required maxlength="99" placeholder="Limite de 100 caracteres"><br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
